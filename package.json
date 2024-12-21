@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "deploy": "gh-pages -d dist",
     "init": "lerna run init",
     "publish": "lerna run publish",
     "lint": "eslint .",
@@ -24,9 +25,11 @@
     "@fortawesome/free-regular-svg-icons": "^6.7.1",
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "build": "^0.1.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.15.0",
+    "js-yaml": "^4.1.0",
     "lucide-react": "^0.462.0",
     "motion": "^11.15.0",
     "react": "^18.3.1",
@@ -37,7 +40,8 @@
     "styled-components": "^6.1.13",
     "tailwind-merge": "^2.5.5",
     "tailwind-scrollbar": "^3.1.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "timespan": "^2.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
