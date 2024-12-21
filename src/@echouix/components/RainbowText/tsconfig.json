@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Output compiled files to the 'dist' directory.
+    "rootDir": "./src", // Input files are from the 'src' directory.
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "declaration": true, // Generate TypeScript declaration files (.d.ts).
+    "declarationDir": "./dist", // Emit declaration files in 'dist'.
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "lib": ["ESNext", "DOM"]
+  },
+  "include": ["src/**/*"], // Include all source files.
+  "exclude": ["node_modules", "dist"] // Exclude these folders.
+}
